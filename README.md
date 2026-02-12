@@ -11,6 +11,7 @@
 | **OpenClaw** | AI 多渠道消息网关，支持 Telegram/WhatsApp/Discord/Slack |
 | **CRS** | Claude Relay Service，Claude 多账户中转/拼车 |
 | **Sub2API** | 订阅转 API 服务部署管理 |
+| **Responses API 转换代理** | 将 Responses API 转换为 Chat Completions API，支持沉浸式翻译等工具 |
 
 ## 使用方法
 
@@ -38,6 +39,7 @@ sudo bash openclaw-deploy.sh
 1. OpenClaw 部署管理 (AI多渠道消息网关)
 2. CRS 部署管理 (Claude多账户中转/拼车)
 3. Sub2API 部署管理
+4. OpenAI Responses API 转换代理
 0. 退出
 ```
 

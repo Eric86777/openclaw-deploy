@@ -1,6 +1,6 @@
-# AI Toolkit - AI 代理服务部署工具箱
+# OpenClaw Deploy - 一键部署工具箱
 
-一键部署和管理 AI 代理服务的 Bash 脚本工具箱。
+一键部署和管理 OpenClaw 及相关 AI 代理服务的 Bash 脚本工具箱。
 
 从 [net-tcp-tune.sh](https://github.com/Eric86777/vps-tcp-tune) v4.9.0 独立提取。
 
@@ -15,15 +15,15 @@
 ## 使用方法
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/Eric86777/ai-toolkit/main/ai-toolkit.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/Eric86777/openclaw-deploy/main/openclaw-deploy.sh)
 ```
 
 或下载后运行：
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Eric86777/ai-toolkit/main/ai-toolkit.sh -o ai-toolkit.sh
-chmod +x ai-toolkit.sh
-sudo bash ai-toolkit.sh
+curl -fsSL https://raw.githubusercontent.com/Eric86777/openclaw-deploy/main/openclaw-deploy.sh -o openclaw-deploy.sh
+chmod +x openclaw-deploy.sh
+sudo bash openclaw-deploy.sh
 ```
 
 ## 系统要求

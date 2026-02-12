@@ -1,7 +1,7 @@
 #!/bin/bash
 #=============================================================================
-# AI Toolkit - AI 代理服务部署工具箱
-# 功能：一键部署和管理 AI 代理服务
+# OpenClaw Deploy - OpenClaw 一键部署工具箱
+# 功能：一键部署和管理 OpenClaw 及相关 AI 代理服务
 # 包含：OpenClaw (AI多渠道消息网关)、CRS (Claude中转)、Sub2API
 #=============================================================================
 # 从 BBR v3 终极优化脚本 (net-tcp-tune.sh) v4.9.0 独立提取
@@ -3432,13 +3432,13 @@ manage_openclaw() {
 
 
 # =====================================================
-# AI Toolkit 主菜单
+# OpenClaw Deploy 主菜单
 # =====================================================
 ai_toolkit_main() {
     while true; do
         clear
         echo -e "${gl_kjlan}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${gl_bai}"
-        echo -e "${gl_kjlan}  AI Toolkit - AI 代理服务部署工具箱 v${TOOLKIT_VERSION}${gl_bai}"
+        echo -e "${gl_kjlan}  OpenClaw Deploy - 一键部署工具箱 v${TOOLKIT_VERSION}${gl_bai}"
         echo -e "${gl_kjlan}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${gl_bai}"
         echo ""
         echo "1. OpenClaw 部署管理 (AI多渠道消息网关)"
